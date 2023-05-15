@@ -4,3 +4,4 @@ doc/
 dep/
 CMakeLists.txt
 .idea/
+.DS_Store
