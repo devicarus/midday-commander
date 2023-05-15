@@ -1,0 +1,5 @@
+Dockerfile
+cmake*/
+doc/
+dep/
+CMakeLists.txt
