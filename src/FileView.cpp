@@ -10,10 +10,10 @@
 #include "entry/Symlink.h"
 
 FileView::FileView()
-: wd(std::filesystem::current_path()), cursor(nullptr) {}
+: wd(std::filesystem::current_path()) {}
 
 FileView::FileView(std::filesystem::path wd)
-: wd(std::move(wd)), cursor(nullptr) {}
+: wd(std::move(wd)) {}
 
 std::vector<Entry*> FileView::getCurrent() const {
     std::vector<Entry*> entries;
@@ -26,4 +26,10 @@ std::vector<Entry*> FileView::getCurrent() const {
             entries.push_back(new Symlink{it});
     }
     return entries;
+}
+
+void FileView::cd(std::filesystem::path path) {
+    wd = std::move(path);
+    cursor = 0;
+    scroll_cursor = 0;
 }

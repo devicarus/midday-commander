@@ -15,9 +15,10 @@ public:
     FileView();
     explicit FileView(std::filesystem::path wd);
     std::filesystem::path wd;
-    Entry* cursor; // maybe index instead?
+    size_t cursor = 0;
 
     [[nodiscard]] std::vector<Entry*> getCurrent() const;
+    void cd(std::filesystem::path);
 };
 
 
