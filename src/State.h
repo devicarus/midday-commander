@@ -8,11 +8,18 @@
 #include <set>
 
 #include "entry/Entry.h"
+#include "Utility.h"
 
 class State {
+private:
+    struct cmpEntry {
+        bool operator() (const std::shared_ptr<Entry>& lhs, const std::shared_ptr<Entry>& rhs) const {
+            return lhs->path < rhs->path;
+        }
+    };
 public:
     bool running = true;
-    std::set<Entry*> selected;
+    std::set<std::shared_ptr<Entry>, cmpEntry> selected;
 };
 
 

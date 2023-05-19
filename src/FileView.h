@@ -16,8 +16,9 @@ public:
     explicit FileView(std::filesystem::path wd);
     std::filesystem::path wd;
     size_t cursor = 0;
+    size_t scroll_cursor = 0;
 
-    [[nodiscard]] std::vector<Entry*> getCurrent() const;
+    [[nodiscard]] std::vector<std::shared_ptr<Entry>> getCurrent(bool recursive = false);
     void cd(std::filesystem::path);
 };
 
