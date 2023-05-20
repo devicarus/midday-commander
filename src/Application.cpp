@@ -3,18 +3,16 @@
 //
 #include "Application.h"
 
-#include "FileView.h"
-#include "Interface.h"
 
-Application::Application(Interface interface, FileView fileview, State state)
-: interface(std::move(interface)), fileview(std::move(fileview)), state(std::move(state)) {}
+Application::Application(Interface interface, FileView fileView, State state)
+: interface(std::move(interface)), fileView(std::move(fileView)), state(std::move(state)) {}
 
 int Application::run() {
     interface.initialize();
 
     while (state.running) {
-        interface.render(fileview, state);
-        interface.promptAction()->execute(fileview, state);
+        interface.render(fileView, state);
+        interface.promptAction()->execute(fileView, state);
     }
 
     interface.stop();

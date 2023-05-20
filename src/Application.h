@@ -5,16 +5,16 @@
 #ifndef MIDDAY_COMMANDER_APPLICATION_H
 #define MIDDAY_COMMANDER_APPLICATION_H
 
-#include "Interface.h"
+#include "interface/Interface.h"
 #include "State.h"
 
 class Application {
 public:
-    Application(Interface interface, FileView fileview, State state);
+    Application(Interface interface, FileView fileView, State state);
     int run();
 private:
     Interface interface;
-    FileView fileview;
+    FileView fileView;
     State state;
 };
 
