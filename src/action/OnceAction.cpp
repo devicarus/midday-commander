@@ -4,6 +4,6 @@
 
 #include "OnceAction.h"
 
-void OnceAction::execute(FileView& fileview, Interface& interface, State& state) {
-    executeAction(fileview, state);
+void OnceAction::execute(FileView& fileView, State& state) {
+    executeAction(fileView, state);
 }

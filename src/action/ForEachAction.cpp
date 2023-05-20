@@ -4,7 +4,8 @@
 
 #include "ForEachAction.h"
 
-void ForEachAction::execute(FileView& fileview, [[maybe_unused]] Interface& interface, State& state) {
-    for (auto entry : state.selected)
-        executeAction(entry);
+void ForEachAction::execute(FileView& fileView, State& state) {
+    for (const auto& entry : state.selected)
+        executeAction(fileView, entry);
+    state.selected.clear();
 }

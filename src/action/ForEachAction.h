@@ -9,9 +9,9 @@
 
 class ForEachAction : public Action {
 public:
-    void execute(FileView& fileview, [[maybe_unused]] Interface& interface, [[maybe_unused]] State& state) override;
+    void execute(FileView&, State&) override;
 private:
-    virtual void executeAction(Entry*) = 0;
+    virtual void executeAction(FileView&, std::shared_ptr<Entry>) = 0;
 };
 
 #endif //MIDDAY_COMMANDER_FOREACHACTION_H

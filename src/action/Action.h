@@ -9,15 +9,14 @@
 #include <filesystem>
 
 #include "../FileView.h"
-#include "../Interface.h"
 #include "../State.h"
-
-class Interface;
 
 class Action {
 public:
     Action() = default;
-    virtual void execute(FileView& filesystem, Interface& interface, State& state) = 0;
+    virtual ~Action() = default;
+    virtual void execute(FileView&, State&) = 0;
+    [[nodiscard]] virtual std::unique_ptr<Action> clone() const = 0;
 };
 
 #endif //MIDDAY_COMMANDER_ACTION_H

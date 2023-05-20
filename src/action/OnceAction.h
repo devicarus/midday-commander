@@ -9,9 +9,9 @@
 
 class OnceAction : public Action {
 public:
-    void execute(FileView& fileview, Interface& interface, State& state) override;
+    void execute(FileView&, State&) override;
 private:
-    virtual void executeAction(FileView& fileview, State& state) = 0;
+    virtual void executeAction(FileView&, State&) = 0;
 };
 
 #endif //MIDDAY_COMMANDER_ONCEACTION_H

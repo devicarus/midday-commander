@@ -14,7 +14,7 @@ int Application::run() {
 
     while (state.running) {
         interface.render(fileview, state);
-        interface.promptAction()->execute(fileview, interface, state);
+        interface.promptAction()->execute(fileview, state);
     }
 
     interface.stop();
