@@ -5,6 +5,8 @@
 
 #include "ncurses.h"
 
+#include "Color.h"
+
 Interface &Interface::addHotkey(int key, const Action& action) {
     actions.emplace(key, action.clone());
     return (*this);
@@ -26,6 +28,7 @@ void Interface::initialize() const {
     keypad(stdscr,TRUE);
     start_color();
     use_default_colors();
+    generateColorPairs();
     curs_set(0);
 }
 
@@ -46,4 +49,27 @@ void Interface::render(FileView& fileView, State& state) {
             entry->print(Modifier::NONE);
         printw("\n");
     }
+}
+
+Interface &Interface::setTheme(Theme newTheme) {
+    theme = newTheme;
+    return (*this);
+}
+
+void Interface::generateColorPairs() const {
+    init_pair(static_cast<int>(ColorPair::DEFAULT_BACKGROUND), COLOR_DEFAULT, theme.background);
+    init_pair(static_cast<int>(ColorPair::DEFAULT_PRIMARY), COLOR_DEFAULT, theme.primary);
+    init_pair(static_cast<int>(ColorPair::DEFAULT_SECONDARY), COLOR_DEFAULT, theme.secondary);
+
+    init_pair(static_cast<int>(ColorPair::ACCENT1_BACKGROUND), theme.accent1, theme.background);
+    init_pair(static_cast<int>(ColorPair::ACCENT2_BACKGROUND), theme.accent2, theme.background);
+    init_pair(static_cast<int>(ColorPair::ACCENT3_BACKGROUND), theme.accent3, theme.background);
+
+    init_pair(static_cast<int>(ColorPair::ACCENT1_PRIMARY), theme.accent1, theme.primary);
+    init_pair(static_cast<int>(ColorPair::ACCENT2_PRIMARY), theme.accent2, theme.primary);
+    init_pair(static_cast<int>(ColorPair::ACCENT3_PRIMARY), theme.accent3, theme.primary);
+
+    init_pair(static_cast<int>(ColorPair::ACCENT1_SECONDARY), theme.accent1, theme.secondary);
+    init_pair(static_cast<int>(ColorPair::ACCENT2_SECONDARY), theme.accent2, theme.secondary);
+    init_pair(static_cast<int>(ColorPair::ACCENT3_SECONDARY), theme.accent3, theme.secondary);
 }
