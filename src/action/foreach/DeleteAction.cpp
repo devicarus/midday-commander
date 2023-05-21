@@ -6,7 +6,10 @@
 
 #include "DeleteAction.h"
 
-void DeleteAction::executeAction(Entry* entry) {
-    // testing placeholder
-    printw(("deleting " + entry->path.filename().string() + "\n").c_str());
+void DeleteAction::executeAction(FileView&, std::shared_ptr<Entry> entry) {
+    entry->remove();
+}
+
+std::unique_ptr<Action> DeleteAction::clone() const {
+    return std::make_unique<DeleteAction>(*this);
 }
