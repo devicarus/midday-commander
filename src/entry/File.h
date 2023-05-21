@@ -11,8 +11,16 @@
 
 class File : public Entry {
 public:
-    explicit File(std::filesystem::path path);
-    void print() const override;
+    explicit File(std::filesystem::path);
+    void print(Modifier) const override;
+
+    bool isFile() override;
+    bool isFolder() override;
+    bool isSymlink() override;
+
+    bool remove() override;
+    bool copy(std::filesystem::path target) override;
+    bool move(std::filesystem::path target) override;
 };
 
 

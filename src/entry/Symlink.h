@@ -11,8 +11,16 @@
 
 class Symlink : public Entry {
 public:
-    explicit Symlink(std::filesystem::path path);
-    void print() const override;
+    explicit Symlink(std::filesystem::path);
+    void print(Modifier) const override;
+
+    bool isFile() override;
+    bool isFolder() override;
+    bool isSymlink() override;
+
+    bool remove() override;
+    bool move(std::filesystem::path target) override;
+    bool copy(std::filesystem::path target) override;
 };
 
 
