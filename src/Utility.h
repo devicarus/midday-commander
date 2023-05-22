@@ -13,6 +13,7 @@ class Utility {
 public:
     static std::string escape(const std::string& str);
     static std::shared_ptr<Entry> makeEntry(const std::filesystem::path& path);
+    static std::string getHash(const std::filesystem::path& path);
 };
 
 

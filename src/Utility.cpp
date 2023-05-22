@@ -4,6 +4,9 @@
 
 #include "Utility.h"
 
+#include "openssl/md5.h"
+#include <fstream>
+
 #include "entry/Symlink.h"
 #include "entry/File.h"
 #include "entry/Folder.h"
@@ -47,4 +50,21 @@ std::shared_ptr<Entry> Utility::makeEntry(const std::filesystem::path& path) {
     else if (is_directory(path))
         return std::shared_ptr<Entry>{new Folder{path}};
     return nullptr;
+}
+
+std::string Utility::getHash(const std::filesystem::path& path) {
+    std::ifstream::pos_type fileSize;
+    char * fileContent;
+
+    std::ifstream file (path, std::ios::ate);
+
+    fileSize = file.tellg();
+    fileContent = new char[fileSize];
+    file.seekg(0,std::ios::beg);
+    file.read(fileContent, fileSize);
+    file.close();
+
+    unsigned char result [MD5_DIGEST_LENGTH];
+    MD5((unsigned char*) fileContent, fileSize, result);
+    return {(char*) result, MD5_DIGEST_LENGTH};
 }
