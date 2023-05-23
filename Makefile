@@ -17,10 +17,10 @@ DEP = $(patsubst $(SRCDIR)/%.cpp,$(DEPDIR)/%.d,$(SRC))
 
 all: compile doc
 
-compile: midday-commander ;
+compile: pasekvoj ;
 
-midday-commander: $(OBJ)
-	$(LD) -o midday-commander $^ $(LIBS)
+pasekvoj: $(OBJ)
+	$(LD) -o pasekvoj $^ $(LIBS)
 
 $(OBJDIR)/%.o: $(SRCDIR)/%.cpp
 	@mkdir -p $(@D)
@@ -30,13 +30,13 @@ doc: $(HEADERS) $(SRC) Doxyfile README.md
 	doxygen
 
 clean:
-	rm -f snake
+	rm -f pasekvoj
 	rm -rf doc
 	rm -rf $(DEPDIR)
 	rm -rf $(OBJDIR)
 
 run: compile
-	./midday-commander
+	./pasekvoj
 
 $(DEPDIR)/%.d: $(SRCDIR)/%.cpp $(HEADERS)
 	@mkdir -p $(@D)
