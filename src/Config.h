@@ -11,7 +11,7 @@
 
 class Config {
 public:
-    explicit Config(const std::filesystem::path& path = std::string{getenv("HOME")} + "/.midday");
+    explicit Config(const std::filesystem::path& path = std::string{getenv("HOME")} + "/.midday.json");
 
     Theme theme = Theme::defaultTheme;
 };
