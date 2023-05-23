@@ -25,21 +25,19 @@ Uživatelské rozhraní bude napsané v `ncurses`.
 Uživatel bude s programem interagovat čistě pomocí hotkeys,
 které budou přiřazené k tzv. akcím v mapě `Interface.actions` (viz diagram tříd).
 Program je kompletně založen na těchto hotkey-triggered akcích,
-tedy i operace jako posun kurzoru, nebo zavření programu, budou akce
+tedy i operace jako např. zavření programu budou akce
 (vedle těch evidentních, jako smazání/přesun douboru, atd.).
 
 Provedení akce na množině souborů bude řešeno pomocí množiny `State.selected` (viz diagram tříd),
 kde budou uloženy jako `Entry`. Ty půjde do této množiny přidat buď po jednom manuálně, nebo hromadně regexem.
 `Entry` se dále dělí na `File`, `Folder` a `Symlink` (polymorfismus).
 
-Jsou 3 typy akcí (další využití polymorfismu)
+Jsou 2 typy akcí (další využití polymorfismu)
 - `ForEach`
     - akce prováděná zvlášť na každém `Entry` ve `State.selected`
-    - např. `Delete`, `Open`, `Move`, `Copy` ...
+    - např. `Delete`, `Move`, `Copy` ...
 - `Once`
     - akce má přímý přístup ke `State` i `FileView` a volnou ruku s nimi nějak pracovat
-    - např. `Create`, `Concat`, `FindByContent`, `Deduplicate`, ...
-- `Interface`
-    - akce má přístup ke `State` a tentokrát (překvapivě) i k `Interface`
-    - např. již zmíněné `Quit`, `CursorUp`, `CursorDown`, ...
-*struktura metod akcí viz diagram tříd*
+    - např. `Create`, `Concat`, `FindByContent`, `Deduplicate`, `Quit`, ...
+
+> Konečný seznam akcí společně s hotkeys se nachází v dokumentaci
