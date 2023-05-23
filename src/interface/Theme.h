@@ -61,6 +61,8 @@ public:
      * @brief Symlink foreground
      */
     NCURSES_COLOR_T accent3;
+
+    static Theme defaultTheme;
 };
 
 

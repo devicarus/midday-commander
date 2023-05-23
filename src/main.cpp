@@ -18,8 +18,11 @@
 #include "action/once/CreateFolderAction.h"
 #include "action/once/CreateSymlinkAction.h"
 
+#include "Config.h"
+
 
 int main() {
+    Config config;
     return Application{
             Interface{}
             .addHotkey('q', QuitAction{})
@@ -39,8 +42,8 @@ int main() {
             .addHotkey('1', SelectByContentAction{})
             .addHotkey('2', DeduplicateAction{})
             .addHotkey('3', ConcatAction{})
-            .setTheme(Theme{240, 236, COLOR_DEFAULT, COLOR_WHITE, COLOR_YELLOW, COLOR_MAGENTA}),
-            FileView{},//std::string{getenv("HOME")} + "/test"}, // for testing
+            .setTheme(config.theme),
+            FileView{},
             State{}
     }.run();
 }

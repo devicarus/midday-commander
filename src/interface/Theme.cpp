@@ -14,3 +14,5 @@ Theme::Theme(NCURSES_COLOR_T primary,
 Theme::Theme()
 : primary(COLOR_DEFAULT), secondary(COLOR_DEFAULT), background(COLOR_DEFAULT), accent1(COLOR_DEFAULT), accent2(COLOR_DEFAULT), accent3(COLOR_DEFAULT) {}
 
+Theme Theme::defaultTheme = Theme{240, 236, -1, 7, 3, 5};
+
