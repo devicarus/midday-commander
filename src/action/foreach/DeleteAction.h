@@ -7,6 +7,9 @@
 
 #include "../ForEachAction.h"
 
+/**
+ * @brief An Action that deletes all \link Entry Entries \endlink in State.selected
+ */
 class DeleteAction : public ForEachAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

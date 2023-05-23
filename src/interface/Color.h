@@ -20,6 +20,9 @@ enum class ColorPair {
     ACCENT3_SECONDARY = 9,
 };
 
+/**
+ * @brief A utility class for work with terminal colors
+ */
 class Color {
 public:
     static void set(ColorPair);

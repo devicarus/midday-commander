@@ -8,6 +8,9 @@
 #include "string"
 #include "ncurses.h"
 
+/**
+ * @brief A helper class allowing \link Action Actions \endlink to receive input and show messages
+ */
 class Modal {
 public:
     Modal(std::string  title, int height, int width);

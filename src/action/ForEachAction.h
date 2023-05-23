@@ -7,6 +7,9 @@
 
 #include "Action.h"
 
+/**
+ * @brief A base class for \link Action Actions \endlink that are supposed to iterate over State.selected
+ */
 class ForEachAction : public Action {
 public:
     void execute(FileView&, State&) override;

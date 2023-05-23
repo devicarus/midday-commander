@@ -7,6 +7,9 @@
 
 #include "../OnceAction.h"
 
+/**
+ * @brief An Action that moves FileView.wd one directory up (if possible)
+ */
 class GoBackAction : public OnceAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

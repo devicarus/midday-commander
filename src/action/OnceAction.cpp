@@ -4,6 +4,7 @@
 
 #include "OnceAction.h"
 
+// to unify interfaces with ForEach Actions
 void OnceAction::execute(FileView& fileView, State& state) {
     executeAction(fileView, state);
 }

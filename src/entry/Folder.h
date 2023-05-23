@@ -9,6 +9,9 @@
 
 #include "Entry.h"
 
+/**
+ * @brief Represents a folder in the program
+ */
 class Folder : public Entry {
 public:
     explicit Folder(std::filesystem::path);

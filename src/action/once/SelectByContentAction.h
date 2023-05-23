@@ -7,6 +7,9 @@
 
 #include "../OnceAction.h"
 
+/**
+ * @brief An Action that adds \link Entry Entries \endlink into State.selected if their content matches `RegEx` provided by user via a dialog
+ */
 class SelectByContentAction : public OnceAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

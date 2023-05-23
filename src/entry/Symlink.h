@@ -9,6 +9,9 @@
 
 #include "Entry.h"
 
+/**
+ * @brief Represents a symlink in the program
+ */
 class Symlink : public Entry {
 public:
     explicit Symlink(std::filesystem::path);

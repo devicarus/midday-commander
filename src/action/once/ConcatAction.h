@@ -7,6 +7,9 @@
 
 #include "../OnceAction.h"
 
+/**
+ * @brief An Action that concatenates all \link File Files \endlink in State.selected into to a new one (user is asked for filename)
+ */
 class ConcatAction : public OnceAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

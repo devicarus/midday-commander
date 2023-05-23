@@ -9,6 +9,9 @@
 
 #include "Entry.h"
 
+/**
+ * @brief Represents a file in the program
+ */
 class File : public Entry {
 public:
     explicit File(std::filesystem::path);

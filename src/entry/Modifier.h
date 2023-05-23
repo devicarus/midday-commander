@@ -5,6 +5,9 @@
 #ifndef MIDDAY_COMMANDER_MODIFIER_H
 #define MIDDAY_COMMANDER_MODIFIER_H
 
+/**
+ * @brief Used to modify Entry.print()
+ */
 enum class Modifier {
     NONE,
     SELECTED,

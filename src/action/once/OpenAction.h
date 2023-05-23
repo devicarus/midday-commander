@@ -7,6 +7,9 @@
 
 #include "../OnceAction.h"
 
+/**
+ * @brief An Action that sets FileView.wd to the Folder under FileView.cursor (if it is Folder)
+ */
 class OpenAction : public OnceAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

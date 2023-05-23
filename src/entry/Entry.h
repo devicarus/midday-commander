@@ -9,6 +9,9 @@
 
 #include "Modifier.h"
 
+/**
+ * @brief An abstract class representing a general FileView entry
+ */
 class Entry {
 public:
     std::filesystem::path path;

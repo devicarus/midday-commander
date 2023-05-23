@@ -7,6 +7,9 @@
 
 #include "../ForEachAction.h"
 
+/**
+ * @brief An Action that moves all \link Entry Entries \endlink in State.selected to FileView.wd
+ */
 class MoveAction : public ForEachAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

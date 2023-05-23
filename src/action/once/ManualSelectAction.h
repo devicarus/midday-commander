@@ -7,6 +7,9 @@
 
 #include "../OnceAction.h"
 
+/**
+ * @brief An Action that adds the Entry under FileView.cursor to State.selected
+ */
 class ManualSelectAction : public OnceAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

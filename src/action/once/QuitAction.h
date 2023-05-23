@@ -7,6 +7,9 @@
 
 #include "../OnceAction.h"
 
+/**
+ * @brief An Action that stops the Application
+ */
 class QuitAction : public OnceAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

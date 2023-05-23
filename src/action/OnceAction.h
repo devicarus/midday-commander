@@ -7,6 +7,9 @@
 
 #include "Action.h"
 
+/**
+ * @brief A base class for \link Action Actions \endlink that are supposed to fire once
+ */
 class OnceAction : public Action {
 public:
     void execute(FileView&, State&) override;

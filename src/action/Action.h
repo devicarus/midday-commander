@@ -11,6 +11,9 @@
 #include "../FileView.h"
 #include "../State.h"
 
+/**
+ * @brief An abstract class representing a general operation in the program
+ */
 class Action {
 public:
     Action() = default;

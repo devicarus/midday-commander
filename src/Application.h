@@ -8,6 +8,9 @@
 #include "interface/Interface.h"
 #include "State.h"
 
+/**
+ * @brief The main application class
+ */
 class Application {
 public:
     Application(Interface interface, FileView fileView, State state);

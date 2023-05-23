@@ -16,15 +16,28 @@
 
 #define KEY_RETURN '\n'// ncurses provides only KEY_ENTER, which is the numpad one
 
-
+/**
+ * @brief Represents the main interface of the Application
+ */
 class Interface {
 public:
     [[nodiscard]] const std::shared_ptr<Action>& promptAction() const;
     Interface& addHotkey(int key, const Action& action);
     Interface& setTheme(Theme);
 
+    /**
+     * @brief Initializes `ncurses` and prepares
+     */
     void initialize() const;
+
+    /**
+     * @brief Shows the file view
+     */
     void render(FileView&, State&);
+
+    /**
+     * @brief Stops `ncurses`
+     */
     void stop();
 private:
     std::map<int, std::shared_ptr<Action>> actions;

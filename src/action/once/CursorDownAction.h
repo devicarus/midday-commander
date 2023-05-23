@@ -7,6 +7,9 @@
 
 #include "../OnceAction.h"
 
+/**
+ * @brief An Action that moves FileView.cursor one Entry down
+ */
 class CursorDownAction : public OnceAction {
 public:
     [[nodiscard]] std::unique_ptr<Action> clone() const override;

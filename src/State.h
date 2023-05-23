@@ -10,8 +10,14 @@
 #include "entry/Entry.h"
 #include "Utility.h"
 
+/**
+ * @brief Holds the global state of the Application
+ */
 class State {
 private:
+    /**
+     * @brief Custom comparator for State.selected
+     */
     struct cmpEntry {
         bool operator() (const std::shared_ptr<Entry>& lhs, const std::shared_ptr<Entry>& rhs) const {
             return lhs->path < rhs->path;
