@@ -9,6 +9,9 @@
 
 #include "interface/Theme.h"
 
+/**
+ * @brief Provides external configuration to the Application
+ */
 class Config {
 public:
     explicit Config(const std::filesystem::path& path = std::string{getenv("HOME")} + "/.midday.json");

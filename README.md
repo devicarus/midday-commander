@@ -1,6 +1,8 @@
 # midday-commander - interaktivní file manager
 
-> Vyžaduje terminál s podporou `8-bit color`
+> Výchozí nastavení vyžaduje terminál s podporou `8-bit color`, v případě že se barvy ve vašem terminálu špatně zobrazují (kurzor/výběr nelze rozeznat, atd.) je zkuste <a href="#konfigurace">v konfiguraci</a> přenastavit na některé ze standardních ANSI barev (`0`-`15`) 
+
+## Použití
 
 ### Základní operace
 - `q` - ukončit program
@@ -28,3 +30,27 @@
 - `1` - vybrat soubory podle obsahu (podporuje RegEx)
 - `2` - deduplikovat soubor, na kterém je právě kurzor (najde a nahradí duplikáty symlinky)
 - `3` - spojí vybrané soubory do nového (concat)
+
+---
+
+## Konfigurace {#konfigurace}
+ 
+Umístění: `~/.midday.json`
+
+Pokud není konfigurační soubor nalezen, je použita výchozí konfigurace
+
+Ukázková konfigurace:
+```json
+{
+    "theme": {
+        "primary": 1,
+        "secondary": 2,
+        "background": -1,
+        "accent1": 3,
+        "accent2": 4,
+        "accent3": 5	
+    }
+}
+```
+
+> Vysvětlení položek `theme` viz \link Theme.accent1 dokumentace \endlink

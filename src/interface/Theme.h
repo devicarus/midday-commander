@@ -39,26 +39,32 @@ public:
 
     /**
      * @brief Background of cursored-on Entry
+     * @note The color is represented as ANSI color code
      */
     NCURSES_COLOR_T primary;
     /**
      * @brief Background of selected \link Entry Entries \endlink
+     * @note The color is represented as ANSI color code
      */
     NCURSES_COLOR_T secondary;
     /**
      * @brief Default background
+     * @note The color is represented as ANSI color code
      */
     NCURSES_COLOR_T background;
     /**
      * @brief File foreground
+     * @note The color is represented as ANSI color code
      */
     NCURSES_COLOR_T accent1;
     /**
      * @brief Folder foreground
+     * @note The color is represented as ANSI color code
      */
     NCURSES_COLOR_T accent2;
     /**
      * @brief Symlink foreground
+     * @note The color is represented as ANSI color code
      */
     NCURSES_COLOR_T accent3;
 
