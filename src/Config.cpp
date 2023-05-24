@@ -23,4 +23,6 @@ Config::Config(const std::filesystem::path& path) {
         config_theme.value("accent2", Theme::defaultTheme.accent2),
         config_theme.value("accent3", Theme::defaultTheme.accent3)
     };
+
+    file.close();
 }
