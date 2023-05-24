@@ -4,12 +4,29 @@
 #include "Symlink.h"
 
 #include "ncurses.h"
+#include <set>
 
 #include "../interface/Color.h"
 #include "../Utility.h"
 
-Symlink::Symlink(std::filesystem::path path)
-: Entry(std::move(path)) {}
+Symlink::Symlink(const std::filesystem::path& path)
+: Entry(path) {
+    std::set<std::filesystem::path> history;
+
+    auto current = path;
+    while (is_symlink(current)) {
+        auto next = std::filesystem::read_symlink(current);
+        if (next.is_relative())
+            next = current.parent_path()/next;
+
+        current = next;
+
+        if (!history.insert(current.filename()).second) {
+            circular = true;
+            break;
+        }
+    }
+}
 
 void Symlink::print(Modifier modifier) const {
     auto filename = Utility::escape(path.filename());
@@ -56,7 +73,7 @@ bool Symlink::isFile() {
 }
 
 bool Symlink::isFolder() {
-    return std::filesystem::is_directory(path);
+    return !circular && std::filesystem::is_directory(path);
 }
 
 bool Symlink::isSymlink() {
