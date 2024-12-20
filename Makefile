@@ -15,7 +15,7 @@ HEADERS = $(call rwildcard,$(SRCDIR),*.h)
 DEP = $(patsubst $(SRCDIR)/%.cpp,$(DEPDIR)/%.d,$(SRC))
 
 
-all: compile doc
+all: compile docs
 
 compile: $(OBJ)
 	$(LD) -o midday-commander $^ $(LIBS)
@@ -24,12 +24,12 @@ $(OBJDIR)/%.o: $(SRCDIR)/%.cpp
 	@mkdir -p $(@D)
 	$(CXX) -c -o $@ $< $(CXXFLAGS)
 
-doc: $(HEADERS) $(SRC) Doxyfile README.md
+docs: $(HEADERS) $(SRC) Doxyfile README.md
 	doxygen
 
 clean:
 	rm -f midday-commander
-	rm -rf doc
+	rm -rf docs
 	rm -rf $(DEPDIR)
 	rm -rf $(OBJDIR)
 
