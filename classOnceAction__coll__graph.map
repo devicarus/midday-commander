@@ -1,0 +1,4 @@
+<map id="OnceAction" name="OnceAction">
+<area shape="rect" id="node1" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="5,79,101,104"/>
+<area shape="rect" id="node2" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="22,5,85,31"/>
+</map>

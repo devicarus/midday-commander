@@ -1,0 +1,22 @@
+var searchData=
+[
+  ['accent1_0',['accent1',['../classTheme.html#a0d807e28a90aecd4cb425835a3fff263',1,'Theme']]],
+  ['accent1_5fbackground_1',['ACCENT1_BACKGROUND',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576af1cba2bcd713c5b195a96cce7f5c4a01',1,'Color.h']]],
+  ['accent1_5fprimary_2',['ACCENT1_PRIMARY',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576afd6a3554e297d1ce2610d147b4460424',1,'Color.h']]],
+  ['accent1_5fsecondary_3',['ACCENT1_SECONDARY',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576a814956797b68a06bdc0f30306e6f9f12',1,'Color.h']]],
+  ['accent2_4',['accent2',['../classTheme.html#a3e7f146d199711e584dff3fad96cf101',1,'Theme']]],
+  ['accent2_5fbackground_5',['ACCENT2_BACKGROUND',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576a99ecfc167383b2e1dd6e73b769ff3556',1,'Color.h']]],
+  ['accent2_5fprimary_6',['ACCENT2_PRIMARY',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576a076da61aa775bc3320d890ba4fc38aed',1,'Color.h']]],
+  ['accent2_5fsecondary_7',['ACCENT2_SECONDARY',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576ad6df4d1ecd492626a26f6fbaba264d5b',1,'Color.h']]],
+  ['accent3_8',['accent3',['../classTheme.html#a3e598171a4aa6cb2143a607c58d0c41c',1,'Theme']]],
+  ['accent3_5fbackground_9',['ACCENT3_BACKGROUND',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576ad363b31752250b72aeb701dccc2c6a94',1,'Color.h']]],
+  ['accent3_5fprimary_10',['ACCENT3_PRIMARY',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576a6d924e3552800da76f74ed60461ddcf4',1,'Color.h']]],
+  ['accent3_5fsecondary_11',['ACCENT3_SECONDARY',['../Color_8h.html#a6a16436a6d390db5363af472b88d8576aff24be3652bed7220726a8f49c922c91',1,'Color.h']]],
+  ['action_12',['Action',['../classAction.html',1,'Action'],['../classAction.html#ae56128e86ad3c35aa154954fc3e39dc0',1,'Action::Action()']]],
+  ['action_2eh_13',['Action.h',['../Action_8h.html',1,'']]],
+  ['actions_14',['actions',['../classInterface.html#a832c207cacf205c2d774a91c4b18b487',1,'Interface']]],
+  ['addhotkey_15',['addHotkey',['../classInterface.html#ae3509564ba046391cbd2ced3247e621c',1,'Interface']]],
+  ['application_16',['Application',['../classApplication.html#a2c42c207545cdba80632406a23b2c375',1,'Application::Application()'],['../classApplication.html',1,'Application']]],
+  ['application_2ecpp_17',['Application.cpp',['../Application_8cpp.html',1,'']]],
+  ['application_2eh_18',['Application.h',['../Application_8h.html',1,'']]]
+];

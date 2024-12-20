@@ -1,0 +1,4 @@
+<map id="FileView::getCurrent" name="FileView::getCurrent">
+<area shape="rect" id="node1" title="Get Entries &#160;representing all files/folders in wd." alt="" coords="5,5,159,31"/>
+<area shape="rect" id="node2" href="$classUtility.html#a4b4ebc4aa064a2002f8d42b781fce5a5" title="Makes the correct entry object based on it&#39;s path." alt="" coords="207,5,345,31"/>
+</map>

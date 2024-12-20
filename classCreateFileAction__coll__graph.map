@@ -1,0 +1,5 @@
+<map id="CreateFileAction" name="CreateFileAction">
+<area shape="rect" id="node1" title="An Action that creates a blank file (user is asked for filename)" alt="" coords="5,152,135,177"/>
+<area shape="rect" id="node2" href="$classOnceAction.html" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="22,79,118,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="39,5,101,31"/>
+</map>

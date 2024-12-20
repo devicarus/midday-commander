@@ -1,0 +1,4 @@
+<map id="Folder" name="Folder">
+<area shape="rect" id="node1" title="Represents a folder in the program." alt="" coords="5,79,68,104"/>
+<area shape="rect" id="node2" href="$classEntry.html" title="An abstract class representing a general FileView entry." alt="" coords="9,5,65,31"/>
+</map>

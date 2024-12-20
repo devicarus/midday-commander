@@ -1,0 +1,10 @@
+<map id="Application::run" name="Application::run">
+<area shape="rect" id="node1" title=" " alt="" coords="5,87,129,113"/>
+<area shape="rect" id="node2" href="$classInterface.html#aac81e25cdc7e737234724bb9367f142f" title="Initializes ncurses and prepares." alt="" coords="193,13,337,38"/>
+<area shape="rect" id="node4" href="$classInterface.html#a37361be69347f990b281e1ef4356cdce" title=" " alt="" coords="177,62,353,87"/>
+<area shape="rect" id="node5" href="$classInterface.html#aefa26e1a9eef86cbf1a19a2138972aab" title="Shows the file view." alt="" coords="200,111,331,137"/>
+<area shape="rect" id="node8" href="$classInterface.html#a6df5828506227e38edc4fa540e13f903" title="Stops ncurses" alt="" coords="207,161,323,186"/>
+<area shape="rect" id="node3" href="$classInterface.html#a37cd4d9b6d650f12c6810576ca6eee82" title=" " alt="" coords="401,5,581,45"/>
+<area shape="rect" id="node6" href="$classFileView.html#ad41f6b770e7c214b0a029675417273de" title="Get Entries &#160;representing all files/folders in wd." alt="" coords="415,111,568,137"/>
+<area shape="rect" id="node7" href="$classUtility.html#a4b4ebc4aa064a2002f8d42b781fce5a5" title="Makes the correct entry object based on it&#39;s path." alt="" coords="629,111,768,137"/>
+</map>

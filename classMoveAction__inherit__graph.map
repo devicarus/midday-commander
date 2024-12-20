@@ -1,0 +1,5 @@
+<map id="MoveAction" name="MoveAction">
+<area shape="rect" id="node1" title="An Action that moves all Entries &#160;in State.selected to FileView.wd." alt="" coords="13,152,112,177"/>
+<area shape="rect" id="node2" href="$classForEachAction.html" title="A base class for Actions &#160;that are supposed to iterate over State.selected." alt="" coords="5,79,120,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="31,5,94,31"/>
+</map>

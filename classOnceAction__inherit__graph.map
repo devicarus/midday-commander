@@ -1,0 +1,18 @@
+<map id="OnceAction" name="OnceAction">
+<area shape="rect" id="node1" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="116,327,212,352"/>
+<area shape="rect" id="node3" href="$classConcatAction.html" title="An Action that concatenates all Files &#160;in State.selected into to a new one (user is asked for filenam..." alt="" coords="291,5,399,31"/>
+<area shape="rect" id="node4" href="$classCreateFileAction.html" title="An Action that creates a blank file (user is asked for filename)" alt="" coords="281,55,410,80"/>
+<area shape="rect" id="node5" href="$classCreateFolderAction.html" title="An Action that creates a new folder (user is asked for name)" alt="" coords="272,104,419,129"/>
+<area shape="rect" id="node6" href="$classCreateSymlinkAction.html" title="An Action that creates a symlink to the currently Entry under FileView.cursor (user is asked for file..." alt="" coords="266,153,425,179"/>
+<area shape="rect" id="node7" href="$classCursorDownAction.html" title="An Action that moves FileView.cursor one Entry down." alt="" coords="274,203,417,228"/>
+<area shape="rect" id="node8" href="$classCursorUpAction.html" title="An Action that moves FileView.cursor one Entry up." alt="" coords="284,252,407,277"/>
+<area shape="rect" id="node9" href="$classDeduplicateAction.html" title="An Action that searches for Files &#160;with identical content to the File under FileView...." alt="" coords="275,301,416,327"/>
+<area shape="rect" id="node10" href="$classGoBackAction.html" title="An Action that moves FileView.wd one directory up (if possible)" alt="" coords="289,351,402,376"/>
+<area shape="rect" id="node11" href="$classManualSelectAction.html" title="An Action that adds the Entry under FileView.cursor to State.selected." alt="" coords="270,400,421,425"/>
+<area shape="rect" id="node12" href="$classOpenAction.html" title="An Action that sets FileView.wd to the Folder under FileView.cursor (if it is Folder)" alt="" coords="297,449,394,475"/>
+<area shape="rect" id="node13" href="$classQuitAction.html" title="An Action that stops the Application." alt="" coords="300,499,391,524"/>
+<area shape="rect" id="node14" href="$classRegexSelectAction.html" title="An Action that adds Entries &#160;into State.selected if their filenames matches RegEx provided by user vi..." alt="" coords="273,548,417,573"/>
+<area shape="rect" id="node15" href="$classSelectByContentAction.html" title="An Action that adds Entries &#160;into State.selected if their content matches RegEx provided by user via ..." alt="" coords="260,597,431,623"/>
+<area shape="rect" id="node16" href="$classUnselectAllAction.html" title="An Action that clears State.selected." alt="" coords="277,647,414,672"/>
+<area shape="rect" id="node2" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="5,327,68,352"/>
+</map>

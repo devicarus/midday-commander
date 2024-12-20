@@ -1,0 +1,12 @@
+<map id="FileView::getCurrent" name="FileView::getCurrent">
+<area shape="rect" id="node1" title="Get Entries &#160;representing all files/folders in wd." alt="" coords="427,234,580,259"/>
+<area shape="rect" id="node2" href="$classCreateSymlinkAction.html#a0736fcf258c51c1e33a3e2e28194b746" title=" " alt="" coords="199,5,357,45"/>
+<area shape="rect" id="node3" href="$classCursorDownAction.html#a23be74e42565c2c22a39bbd279efd59f" title=" " alt="" coords="177,69,379,109"/>
+<area shape="rect" id="node4" href="$classDeduplicateAction.html#a63c46ceb750040c186fbd4156584a56f" title=" " alt="" coords="203,133,353,173"/>
+<area shape="rect" id="node5" href="$classManualSelectAction.html#aff3a7bafcf67e747e276e14c4138fc1f" title=" " alt="" coords="203,197,353,237"/>
+<area shape="rect" id="node6" href="$classOpenAction.html#a13072eafb0ce2e9820bd224f2990876f" title=" " alt="" coords="179,262,377,287"/>
+<area shape="rect" id="node7" href="$classRegexSelectAction.html#a991ed64c3a7f2bc516f2683b781640f3" title=" " alt="" coords="202,312,354,352"/>
+<area shape="rect" id="node8" href="$classSelectByContentAction.html#a3d98e9d9ee4c20bc76878ae2e4829828" title=" " alt="" coords="193,376,363,416"/>
+<area shape="rect" id="node9" href="$classInterface.html#aefa26e1a9eef86cbf1a19a2138972aab" title="Shows the file view." alt="" coords="213,441,343,466"/>
+<area shape="rect" id="node10" href="$classApplication.html#a8cf8941c8db90117d3735bce5ae1fdf4" title=" " alt="" coords="5,441,129,466"/>
+</map>

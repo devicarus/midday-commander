@@ -1,0 +1,5 @@
+<map id="Interface::render" name="Interface::render">
+<area shape="rect" id="node1" title="Shows the file view." alt="" coords="5,5,136,31"/>
+<area shape="rect" id="node2" href="$classFileView.html#ad41f6b770e7c214b0a029675417273de" title="Get Entries &#160;representing all files/folders in wd." alt="" coords="184,5,337,31"/>
+<area shape="rect" id="node3" href="$classUtility.html#a4b4ebc4aa064a2002f8d42b781fce5a5" title="Makes the correct entry object based on it&#39;s path." alt="" coords="385,5,524,31"/>
+</map>

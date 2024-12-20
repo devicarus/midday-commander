@@ -1,0 +1,4 @@
+<map id="Interface" name="Interface">
+<area shape="rect" id="node1" title="Represents the main interface of the Application." alt="" coords="5,93,85,119"/>
+<area shape="rect" id="node2" href="$classTheme.html" title="Represents a set of colors used by Interface." alt="" coords="12,5,79,31"/>
+</map>

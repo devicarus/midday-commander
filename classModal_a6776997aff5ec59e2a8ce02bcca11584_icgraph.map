@@ -1,0 +1,9 @@
+<map id="Modal::input" name="Modal::input">
+<area shape="rect" id="node1" title=" " alt="" coords="261,159,364,184"/>
+<area shape="rect" id="node2" href="$classConcatAction.html#a1b4a74a56d75b18f935970c113e62cf6" title=" " alt="" coords="5,5,213,31"/>
+<area shape="rect" id="node3" href="$classCreateFileAction.html#a9a90362ecf1aa4b9d0f32d8849042954" title=" " alt="" coords="15,55,203,95"/>
+<area shape="rect" id="node4" href="$classCreateFolderAction.html#a382deeee6c0d0b3535157e8b266ac07e" title=" " alt="" coords="36,119,183,159"/>
+<area shape="rect" id="node5" href="$classCreateSymlinkAction.html#a0736fcf258c51c1e33a3e2e28194b746" title=" " alt="" coords="30,183,189,223"/>
+<area shape="rect" id="node6" href="$classRegexSelectAction.html#a991ed64c3a7f2bc516f2683b781640f3" title=" " alt="" coords="33,247,185,287"/>
+<area shape="rect" id="node7" href="$classSelectByContentAction.html#a3d98e9d9ee4c20bc76878ae2e4829828" title=" " alt="" coords="24,311,195,351"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="UnselectAllAction" name="UnselectAllAction">
+<area shape="rect" id="node1" title="An Action that clears State.selected." alt="" coords="5,152,143,177"/>
+<area shape="rect" id="node2" href="$classOnceAction.html" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="26,79,122,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="43,5,105,31"/>
+</map>

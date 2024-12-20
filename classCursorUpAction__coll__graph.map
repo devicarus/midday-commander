@@ -1,0 +1,5 @@
+<map id="CursorUpAction" name="CursorUpAction">
+<area shape="rect" id="node1" title="An Action that moves FileView.cursor one Entry up." alt="" coords="5,152,128,177"/>
+<area shape="rect" id="node2" href="$classOnceAction.html" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="19,79,115,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="35,5,98,31"/>
+</map>

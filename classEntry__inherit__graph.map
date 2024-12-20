@@ -1,0 +1,6 @@
+<map id="Entry" name="Entry">
+<area shape="rect" id="node1" title="An abstract class representing a general FileView entry." alt="" coords="79,5,135,31"/>
+<area shape="rect" id="node2" href="$classFile.html" title="Represents a file in the program." alt="" coords="5,79,51,104"/>
+<area shape="rect" id="node3" href="$classFolder.html" title="Represents a folder in the program." alt="" coords="75,79,138,104"/>
+<area shape="rect" id="node4" href="$classSymlink.html" title="Represents a symlink in the program." alt="" coords="163,79,237,104"/>
+</map>

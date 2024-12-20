@@ -1,0 +1,5 @@
+<map id="ManualSelectAction" name="ManualSelectAction">
+<area shape="rect" id="node1" title="An Action that adds the Entry under FileView.cursor to State.selected." alt="" coords="5,152,156,177"/>
+<area shape="rect" id="node2" href="$classOnceAction.html" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="33,79,129,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="49,5,112,31"/>
+</map>

@@ -1,0 +1,7 @@
+<map id="ForEachAction" name="ForEachAction">
+<area shape="rect" id="node1" title="A base class for Actions &#160;that are supposed to iterate over State.selected." alt="" coords="121,79,236,104"/>
+<area shape="rect" id="node3" href="$classCopyAction.html" title="An Action that copies all Entries &#160;in State.selected to FileView.wd." alt="" coords="5,152,101,177"/>
+<area shape="rect" id="node4" href="$classDeleteAction.html" title="An Action that deletes all Entries &#160;in State.selected." alt="" coords="125,152,232,177"/>
+<area shape="rect" id="node5" href="$classMoveAction.html" title="An Action that moves all Entries &#160;in State.selected to FileView.wd." alt="" coords="256,152,355,177"/>
+<area shape="rect" id="node2" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="147,5,210,31"/>
+</map>

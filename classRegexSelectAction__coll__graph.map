@@ -1,0 +1,5 @@
+<map id="RegexSelectAction" name="RegexSelectAction">
+<area shape="rect" id="node1" title="An Action that adds Entries &#160;into State.selected if their filenames matches RegEx provided by user vi..." alt="" coords="5,152,149,177"/>
+<area shape="rect" id="node2" href="$classOnceAction.html" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="29,79,125,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="46,5,109,31"/>
+</map>

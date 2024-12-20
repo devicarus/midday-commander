@@ -1,0 +1,5 @@
+<map id="SelectByContentAction" name="SelectByContentAction">
+<area shape="rect" id="node1" title="An Action that adds Entries &#160;into State.selected if their content matches RegEx provided by user via ..." alt="" coords="5,152,176,177"/>
+<area shape="rect" id="node2" href="$classOnceAction.html" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="43,79,139,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="59,5,122,31"/>
+</map>

@@ -1,0 +1,5 @@
+<map id="DeduplicateAction" name="DeduplicateAction">
+<area shape="rect" id="node1" title="An Action that searches for Files &#160;with identical content to the File under FileView...." alt="" coords="5,152,147,177"/>
+<area shape="rect" id="node2" href="$classOnceAction.html" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="28,79,124,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="45,5,107,31"/>
+</map>

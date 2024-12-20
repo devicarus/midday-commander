@@ -1,0 +1,4 @@
+<map id="Config" name="Config">
+<area shape="rect" id="node1" title="Provides external configuration to the Application." alt="" coords="7,93,70,119"/>
+<area shape="rect" id="node2" href="$classTheme.html" title="Represents a set of colors used by Interface." alt="" coords="5,5,72,31"/>
+</map>

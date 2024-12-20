@@ -1,0 +1,5 @@
+<map id="ConcatAction" name="ConcatAction">
+<area shape="rect" id="node1" title="An Action that concatenates all Files &#160;in State.selected into to a new one (user is asked for filenam..." alt="" coords="5,152,113,177"/>
+<area shape="rect" id="node2" href="$classOnceAction.html" title="A base class for Actions &#160;that are supposed to fire once." alt="" coords="11,79,107,104"/>
+<area shape="rect" id="node3" href="$classAction.html" title="An abstract class representing a general operation in the program." alt="" coords="28,5,91,31"/>
+</map>
