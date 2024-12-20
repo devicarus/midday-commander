@@ -1,0 +1,10 @@
+{
+    "theme": {
+        "primary": 1,
+        "secondary": 2,
+        "background": -1,
+        "accent1": 3,
+        "accent2": 4,
+        "accent3": 5	
+    }
+}
