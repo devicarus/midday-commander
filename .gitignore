@@ -1,7 +1,5 @@
-Dockerfile
 cmake*/
-doc/
-dep/
-CMakeLists.txt
+docs/
+build/
 .idea/
 .DS_Store
