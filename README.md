@@ -1,7 +1,6 @@
 <h1 align="center">🌞 midday-commander 🌞</h1>
 
-> A **TUI file manager** written in **C++** using ncurses, designed for **MacOS** and **Linux**.
-Efficient, keyboard-driven navigation with advanced file management capabilities!
+> A **TUI file manager** written in **C++** using ncurses, designed for **MacOS** and **Linux**
 
 <br>
 
