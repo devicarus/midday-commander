@@ -1,0 +1,35 @@
+name: Build
+on:
+  push:
+jobs:
+  build-project-linux:
+    name: Build Project (Linux)
+    runs-on: ubuntu-24.04
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v4.2.2
+
+      - name: Build Project
+        uses: threeal/cmake-action@v2.1.0
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: midday-commander-linux
+          path: build/midday-commander
+  
+  build-project-macos:
+    name: Build Project (MacOS)
+    runs-on: macos-latest
+    steps:
+      - name: Checkout Project
+        uses: actions/checkout@v4.2.2
+
+      - name: Build Project
+        uses: threeal/cmake-action@v2.1.0
+
+      - name: Upload Build Artifact
+        uses: actions/upload-artifact@v4
+        with:
+          name: midday-commander-macos
+          path: build/midday-commander
