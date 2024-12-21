@@ -10,6 +10,5 @@ var searchData=
   ['deleteaction_7',['DeleteAction',['../classDeleteAction.html',1,'']]],
   ['deleteaction_2ecpp_8',['DeleteAction.cpp',['../DeleteAction_8cpp.html',1,'']]],
   ['deleteaction_2eh_9',['DeleteAction.h',['../DeleteAction_8h.html',1,'']]],
-  ['destroy_10',['destroy',['../classModal.html#a6e0e45b4f48f64ab0fe4a5dcad5ca8e5',1,'Modal']]],
-  ['doxygen_2dindex_2emd_11',['doxygen-index.md',['../doxygen-index_8md.html',1,'']]]
+  ['destroy_10',['destroy',['../classModal.html#a6e0e45b4f48f64ab0fe4a5dcad5ca8e5',1,'Modal']]]
 ];

@@ -5,7 +5,7 @@
 <meta http-equiv="X-UA-Compatible" content="IE=11"/>
 <meta name="generator" content="Doxygen 1.9.6"/>
 <meta name="viewport" content="width=device-width, initial-scale=1"/>
-<title>midday-commander: midday-commander - interaktivní file manager</title>
+<title>midday-commander: midday-commander</title>
 <link href="tabs.css" rel="stylesheet" type="text/css"/>
 <script type="text/javascript" src="jquery.js"></script>
 <script type="text/javascript" src="dynsections.js"></script>
@@ -69,56 +69,70 @@ $(function() {
 </div>
 
 <div><div class="header">
-  <div class="headertitle"><div class="title">midday-commander - interaktivní file manager </div></div>
+  <div class="headertitle"><div class="title">midday-commander </div></div>
 </div><!--header-->
 <div class="contents">
-<div class="textblock"><p><a class="anchor" id="md_doxygen_index"></a> </p><blockquote class="doxtable">
-<p>&zwj;Výchozí nastavení vyžaduje terminál s podporou <code>8-bit color</code>, v případě že se barvy ve vašem terminálu špatně zobrazují (kurzor/výběr nelze rozeznat, atd.) je zkuste <a href="#konfigurace">v konfiguraci</a> přenastavit na některé ze standardních ANSI barev (<code>0</code>-<code>15</code>) </p>
+<div class="textblock"><p><a class="anchor" id="md_README"></a> </p><h1 align="center">🌞 midday-commander 🌞</h1>
+<blockquote class="doxtable">
+<p>&zwj;A <b>TUI file manager</b> written in <b>C++</b> using ncurses, designed for <b>MacOS</b> and <b>Linux</b>. </p>
 </blockquote>
-<h1><a class="anchor" id="autotoc_md1"></a>
-Použití</h1>
-<h2><a class="anchor" id="autotoc_md2"></a>
-Základní operace</h2>
-<ul>
-<li><code>q</code> - ukončit program</li>
-<li><code>↑</code> - posunutí kurzoru nahoru</li>
-<li><code>↓</code> - posunutí kurzoru dolu</li>
-<li><code>↵</code> - vstup do složky</li>
-<li><code>b</code> - návrat o úroveň výš</li>
+<p>Efficient, keyboard-driven navigation with advanced file management capabilities!</p>
+<p><br  />
+</p>
+<p align="center"></p>
+<p><img src="https://img.shields.io/github/actions/workflow/status/devicarus/midday-commander/cmake-build.yml?style=for-the-badge" alt="Build Status" class="inline"/> <a href="https://nightly.link/devicarus/midday-commander/actions/runs/12445478658/midday-commander-linux.zip?h=9f653bc732cce7dcbf4f28b7dbc84a8a3167bd38"><img src="https://img.shields.io/badge/Linux-Download-green?style=for-the-badge&amp;logo=linux&amp;logoColor=white" alt="Linux Download" class="inline"/></a> <a href="https://nightly.link/devicarus/midday-commander/actions/runs/12445478658/midday-commander-macos.zip?h=9f653bc732cce7dcbf4f28b7dbc84a8a3167bd38"><img src="https://img.shields.io/badge/MacOS-Download-blue?style=for-the-badge&amp;logo=apple&amp;logoColor=white" alt="MacOS Download" class="inline"/></a> <a href="https://devicarus.github.io/midday-commander/"><img src="https://img.shields.io/badge/Documentation-yellow?style=for-the-badge&amp;logo=doxygen&amp;logoSize=auto" alt="Static Badge" class="inline"/></a> </p>
+<h2><a class="anchor" id="autotoc_md0"></a>
+📦 Requirements</h2>
+<p>Ensure you have the following installed before running <b>midday-commander</b>:</p><ul>
+<li>ncurses</li>
+<li>OpenSSL</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md3"></a>
-Výběr záznamů</h2>
+<h2><a class="anchor" id="autotoc_md1"></a>
+📂 Usage</h2>
+<h4><a class="anchor" id="autotoc_md2"></a>
+Basic Operations</h4>
 <ul>
-<li><code>s</code> - vybrat/odvybrat záznam na kterém je kurzor</li>
-<li><code>f</code> - vybrat záznamy pomocí RegExu</li>
-<li><code>u</code> - zrušit veškerý výběr</li>
+<li><code>q</code> - quit the program</li>
+<li><code>↑</code> - move the cursor up</li>
+<li><code>↓</code> - move the cursor down</li>
+<li><code>↵</code> - enter a folder</li>
+<li><code>b</code> - go back one level</li>
 </ul>
-<h2><a class="anchor" id="autotoc_md4"></a>
-Operace se záznamy</h2>
+<h4><a class="anchor" id="autotoc_md3"></a>
+Record Selection</h4>
 <ul>
-<li><code>n</code> - vytvořit soubor</li>
-<li><code>N</code> - vytvořit složku</li>
-<li><code>S</code> - vytvořit symlink na položku, na které se nachází kurzor</li>
-<li><code>d</code> - smazat vybrané záznamy</li>
-<li><code>c</code> - zkopírovat vybrané záznamy do právě otevřené složky</li>
-<li><code>m</code> - přesunout vybrané záznamy do právě otevřené složky</li>
+<li><code>s</code> - select/deselect the item under the cursor</li>
+<li><code>f</code> - select items using RegEx</li>
+<li><code>u</code> - clear selection</li>
+</ul>
+<h4><a class="anchor" id="autotoc_md4"></a>
+Record Operations</h4>
+<ul>
+<li><code>n</code> - create a file</li>
+<li><code>N</code> - create a folder</li>
+<li><code>S</code> - create a symlink to the item under the cursor</li>
+<li><code>d</code> - delete selected items</li>
+<li><code>c</code> - copy selected items to the currently opened folder</li>
+<li><code>m</code> - move selected items to the currently opened folder</li>
 </ul>
 <blockquote class="doxtable">
-<p>&zwj;Tip: Výběr záznamů je při průchodu složkami zachován </p>
+<p>&zwj;Tip: Selection persists while navigating folders </p>
 </blockquote>
-<h2><a class="anchor" id="autotoc_md5"></a>
-Pokročilé operace</h2>
+<h4><a class="anchor" id="autotoc_md5"></a>
+Advanced Operations</h4>
 <ul>
-<li><code>1</code> - vybrat soubory podle obsahu (podporuje RegEx)</li>
-<li><code>2</code> - deduplikovat soubor, na kterém je právě kurzor (najde a nahradí duplikáty symlinky)</li>
-<li><code>3</code> - spojí vybrané soubory do nového (concat)</li>
+<li><code>1</code> - select files by content (supports RegEx)</li>
+<li><code>2</code> - deduplicate the file under the cursor (finds duplicates and replaces them with symlinks)</li>
+<li><code>3</code> - merge selected files into a new one (concat)</li>
 </ul>
-<hr  />
-<h1><a class="anchor" id="konfigurace"></a>
-Konfigurace</h1>
-<p>Umístění: <code>~/.midday.json</code></p>
-<p>Pokud není konfigurační soubor nalezen, je použita výchozí konfigurace</p>
-<p>Ukázková konfigurace: </p><div class="fragment"><div class="line">{</div>
+<h2><a class="anchor" id="autotoc_md6"></a>
+⚙️ Configuration</h2>
+<blockquote class="doxtable">
+<p>&zwj;The default settings require a terminal with support for <code>8-bit color</code>. If colors are not displaying correctly in your terminal (e.g., the cursor/selection is not distinguishable, etc.), try adjusting them in the configuration to one of the standard ANSI colors (<code>0-15</code>). </p>
+</blockquote>
+<p>Placement: <code>~/.midday.json</code></p>
+<p>If the configuration file is not found, the <a href="https://devicarus.github.io/midday-commander/classTheme.html#a0b04fe65dfbfe8caaa03328079064131">default configuration</a> is used.</p>
+<p>Example configuration: </p><div class="fragment"><div class="line">{</div>
 <div class="line">    &quot;theme&quot;: {</div>
 <div class="line">        &quot;primary&quot;: 1,</div>
 <div class="line">        &quot;secondary&quot;: 2,</div>
@@ -128,8 +142,8 @@ Konfigurace</h1>
 <div class="line">        &quot;accent3&quot;: 5  </div>
 <div class="line">    }</div>
 <div class="line">}</div>
-</div><!-- fragment --><blockquote class="doxtable">
-<p>&zwj;Vysvětlení položek <code>theme</code> viz <a class="el" href="classTheme.html#a0d807e28a90aecd4cb425835a3fff263">dokumentace </a> </p>
+</div><!-- fragment --> <blockquote class="doxtable">
+<p>&zwj;Explanation of the theme items can be found in the <a href="https://devicarus.github.io/midday-commander/classTheme.html#ad22a813d93709abadb56b61df00ebb2d">documentation</a>. </p>
 </blockquote>
 </div></div><!-- PageDoc -->
 </div><!-- contents -->

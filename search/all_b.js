@@ -7,7 +7,7 @@ var searchData=
   ['manualselectaction_2ecpp_4',['ManualSelectAction.cpp',['../ManualSelectAction_8cpp.html',1,'']]],
   ['manualselectaction_2eh_5',['ManualSelectAction.h',['../ManualSelectAction_8h.html',1,'']]],
   ['message_6',['message',['../classModal.html#aa9520865766fc3ec26d423d5029e410d',1,'Modal']]],
-  ['midday_2dcommander_20_2d_20interaktivní_20file_20manager_7',['midday-commander - interaktivní file manager',['../index.html',1,'']]],
+  ['midday_2dcommander_7',['midday-commander',['../index.html',1,'']]],
   ['modal_8',['Modal',['../classModal.html#acf06cd4add52e214f20a6f8e600fe064',1,'Modal::Modal(std::string title, int height, int width)'],['../classModal.html#ab9f12fa4ff89e8a490f0ae879c1b74f8',1,'Modal::Modal(int height, int width)'],['../classModal.html',1,'Modal']]],
   ['modal_2ecpp_9',['Modal.cpp',['../Modal_8cpp.html',1,'']]],
   ['modal_2eh_10',['Modal.h',['../Modal_8h.html',1,'']]],
