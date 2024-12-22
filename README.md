@@ -19,19 +19,19 @@ Ensure you have the following installed before running **midday-commander**:
 
 ## 📂 Usage
 
-#### Basic Operations
+#### Basic Actions
 - `q` - quit the program
 - `↑` - move the cursor up
 - `↓` - move the cursor down
 - `↵` - enter a folder
 - `b` - go back one level
 
-#### Record Selection
+#### Item Selection
 - `s` - select/deselect the item under the cursor
 - `f` - select items using RegEx
 - `u` - clear selection
 
-#### Record Operations
+#### Item Actions
 - `n` - create a file
 - `N` - create a folder
 - `S` - create a symlink to the item under the cursor
@@ -41,7 +41,7 @@ Ensure you have the following installed before running **midday-commander**:
 
 > Tip: Selection persists while navigating folders
 
-#### Advanced Operations
+#### Advanced Actions
 - `1` - select files by content (supports RegEx)
 - `2` - deduplicate the file under the cursor (finds duplicates and replaces them with symlinks)
 - `3` - merge selected files into a new one (concat)
